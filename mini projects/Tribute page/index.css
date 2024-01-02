@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+.container{
+    background-color: rgb(183, 183, 255);
+    border:10px solid rgb(0, 34, 61);
+    padding: 60px;
+    margin: 20px;
+}
+.karo p{
+    font-size:18px;
+    letter-spacing: 2px;
+    font-family: sans-serif;
+    text-align: justify;
+}
+.hi {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-size: 45px;
+}
+#lili{
+    border-radius: 40%;
+}
+.oh{
+    font-size:18px;
+    letter-spacing: 2.1px;
+    font-family: sans-serif;
+    padding-left: 20px;
+
+}
+.edu{
+    font-size:18px;
+    letter-spacing: 2.1px;
+    font-family: sans-serif;
+
+}
+.edu h2{
+    font-size:20px ;
+}
+#lelo{
+    border-radius: 50%;
+     overflow: hidden;  
+    float: right; /* Align the image to the left */
+    margin-left: 30px; /* Add some right margin to create space between the image and text */
+}
+
+.edu {
+    clear: left; /* Clear the float so that content doesn't wrap around the image */
+}
+.amit p{
+    font-size: 20px;
+    letter-spacing: 1.2px;
+    font-family: sans-serif;
+}
+#kl{
+    text-align: justify;
+}
+.amit img{
+    border-radius: 20%;
+    float:right;
+    margin-left:20px;
+}
+.gale img{
+    border-radius: 20px;
+    margin-bottom: 40px;
+    
+}
+
+
+
+
+.karo{
+    margin-bottom:30px;
+}
+.awar{
+    margin-bottom:35px;
+}
+.edu{
+    margin-bottom:30px;
+}
+.amit{
+    margin-bottom:50px;
+}
+#mon{
+    margin-right: 200px;
+}
+#sun{
+    margin-left: 300px;
+}
+#admin{
+    margin-left: 250px;
+}
+.hi{
+    display:block;
+    float:right;
+}
+.life{
+    background-image: linear-gradient(#dc65ec, #d900f6);
+    width:20%;
+    height: 35px;
+    border-radius: 10px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    cursor:pointer;
+    transition: ease width 1s;
+}
+
+ .life:hover{
+    width: 25%;
+    background-image: linear-gradient(#e11419,#e86c6f);
+    
+} 
+ .gale img {
+    transition: transform 0.3s ease-in-out;
+} 
+
+.gale img:hover {
+    transform: scale(1.1); /* Adjust the scale value for zoom level */
+}
+
+
+
+
